@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo -n "Enter the name of the state from India: "
+read STATE
+
+echo -n "The native language of $COUNTRY is "
+
+case $STATE in
+  
+  Maharashtra )
+    echo -n "Marathi\n"
+    ;;
+     
+  Gujarat )
+     echo -n "Gujarati\n"
+     ;;
+
+  Punjab)
+    echo -n "Punjabi\n"
+    ;;
+
+  *)
+    echo -n "unknown\n"
+    ;;
+    
+esac
